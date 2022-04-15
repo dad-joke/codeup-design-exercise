@@ -2,55 +2,107 @@
 /*font-family: 'Anton', sans-serif;*/
 /*font-family: 'Noto Sans', sans-serif;*/
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
 
 body {
-    /*background-color: lightgray;*/
-    margin: 0 auto;
-    width: 1080px;
-}
-
-.gray-bar {
     background-color: lightgray;
-    height: 45px;
-    width: 105%;
-    position: fixed;
+    /*margin: 0 auto;*/
+    /*width: 1080px;*/
 }
-
-.gray-bar2 {
-    background-color: lightgray;
-    position: fixed;
-    top: 75px;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
+#navbar-color {
+    background-color: white;
+    margin-top: 2em;
 }
-
+.navbar {
+    display:flex;
+}
 
 .logo {
     height: 105px;
     width: 105px;
 }
 
-h5 {
+#head-nav-link {
     font-family: 'Abel', sans-serif;
-
+    color: black;
 }
-
-.logo-grp {
+#first-grid {
     display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+hr {
+    border-bottom: 1px solid gray;
 }
 
-.nav-links {
-    font-family: 'Abel', sans-serif;
+@media screen and (min-width: 992px) {
+    .logo {
+        margin: -2em 1em -2em 0em;
+    }
+    #navbarNav {
+        justify-content: flex-end;
+    }
+    #head-nav-link {
+        padding: 0em 1em;
+    }
+    .navbar-brand  {
+        font-size: 2em;
+        font-weight: lighter;
+    }
+    #stayMiddle {
+        max-width: 75%;
+    }
+    #first-grid {
+        padding: 4em 0em 2em 0em;
+    }
+    #tab-circles-group {
+        justify-content: center;
+        margin: 2em 0em;
+    }
+    #circle-img {
+        padding: 0em 2em;
+    }
+    hr {
+        width: 75%;
+    }
 }
+
+/*.gray-bar {*/
+/*    background-color: lightgray;*/
+/*    height: 45px;*/
+/*    width: 105%;*/
+/*    position: fixed;*/
+/*}*/
+
+/*.gray-bar2 {*/
+/*    background-color: lightgray;*/
+/*    position: fixed;*/
+/*    top: 75px;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    z-index: -1;*/
+/*}*/
+
+
+
+
+/*h5 {*/
+/*    font-family: 'Abel', sans-serif;*/
+
+/*}*/
+
+/*.logo-grp {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-content: center;*/
+/*    justify-content: center;*/
+/*}*/
+
+
 
 
 
