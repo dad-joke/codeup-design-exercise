@@ -1,0 +1,56 @@
+/*font-family: 'Abel', sans-serif;*/
+/*font-family: 'Anton', sans-serif;*/
+/*font-family: 'Noto Sans', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-color: lightgray;*/
+    margin: 0 auto;
+    width: 1080px;
+}
+
+.gray-bar {
+    background-color: lightgray;
+    height: 45px;
+    width: 105%;
+    position: fixed;
+}
+
+.gray-bar2 {
+    background-color: lightgray;
+    position: fixed;
+    top: 75px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.logo {
+    height: 105px;
+    width: 105px;
+}
+
+h5 {
+    font-family: 'Abel', sans-serif;
+
+}
+
+.logo-grp {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-links {
+    font-family: 'Abel', sans-serif;
+}
+
+
+
