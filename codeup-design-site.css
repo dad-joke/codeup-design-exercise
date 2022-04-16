@@ -71,36 +71,113 @@ hr {
     }
 }
 
-/*.gray-bar {*/
-/*    background-color: lightgray;*/
-/*    height: 45px;*/
-/*    width: 105%;*/
-/*    position: fixed;*/
-/*}*/
+.left-right-container {
+    display: flex;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
 
-/*.gray-bar2 {*/
-/*    background-color: lightgray;*/
-/*    position: fixed;*/
-/*    top: 75px;*/
-/*    height: 100%;*/
-/*    width: 100%;*/
-/*    z-index: -1;*/
-/*}*/
+.left-container {
+    width: 450px;
+    flex: 0 0 60%;
+
+}
+.featured-work {
+    font-size: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected-work {
+    width: 100%;
+    margin: 15px;
+    flex: 0 0 42%;
+}
+
+.featured-img {
+    width: 100%;
+}
+
+.featured-bottom-line {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px; */
+    margin-top: 5px;
+}
+
+.featured-title {
+    /* flex: 0 0 70%; */
+    display: inline;
+    line-height: 18px;
 
 
+}
 
+.featured-icons {
+    display: flex;
+    float: right;
+    line-height: 18px;
 
-/*h5 {*/
-/*    font-family: 'Abel', sans-serif;*/
+    /* justify-content: space-around; */
+    /* flex: 0 0 20%; */
+}
 
-/*}*/
+.featured-icon {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 3px;
+    text-align: center;
+}
 
-/*.logo-grp {*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    align-content: center;*/
-/*    justify-content: center;*/
-/*}*/
+.orange {background-color: #E6563B;}
+.yellow {background-color: #DEA03D;}
+.green {background-color: #7CB06C;}
+.blue {background-color: #00ABA9;}
+
+.right-container {
+    max-width: 450px;
+    margin-top: 15px;
+    flex: 0 0 40%;
+}
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post {
+    display: flex;
+    padding: 15px 0;
+}
+
+.post-image img {
+    width: 70px;
+    height: 55px;
+    flex: 0 0 33%;
+}
+
+.post-title {
+    padding-left: 10px;
+    font-weight: bolder;
+    flex: 0 0 65%;
+}
+
+.tweets {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.tweet {
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
 
 
 
