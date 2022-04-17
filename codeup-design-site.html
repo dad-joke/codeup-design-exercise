@@ -20,7 +20,7 @@
 
 <!--NAV BAR STARTS HERE-->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar-color">
+<nav class="navbar navbar-expand navbar-light bg-light flex-column" id="navbar-color">
     <div class="container" id="stayMiddle">
         <img src="./img/logo.png" alt="logo" class="logo">
         <a class="navbar-brand" href="#">codeup design</a>
@@ -69,7 +69,7 @@
     </div>
 </div>
 
-<div class="container" id="hr-container">
+<div class="container d-none d-sm-block" id="hr-container">
 <hr> <!--style="width: 1000px;"--> <!--removed inline CSS for hr styling. Not sure where this width style came from-->
 </div>
 
@@ -79,14 +79,15 @@
     <!-- Start Left Section (SELECTED WORK) here -->
     <div class="container left-container" >
 
-        <div id="sub-section-title">SELECTED WORK</div> <!-- why was display: inline located here (with the HTML)? -->
+        <h4 id="sub-section-title" >SELECTED WORK</h4> <!-- why was display: inline located here (with the HTML)? -->
 
         <div class="featured-work">
 
             <!-- CARD 1 START -->
-            <div class="selected-work"><div>
-                <img src="./assets/images/apple-ipad.jpg" class="featured-img" alt="featured">
-            </div>
+            <div class="selected-work">
+                <div>
+                    <img src="./assets/images/apple-ipad.jpg" class="featured-img" alt="featured">
+                </div>
                 <div class="featured-bottom-line">
                     <div class="featured-title">FEATURED PROJECT</div>
                     <div class="featured-icons">
@@ -100,9 +101,10 @@
             <!-- CARD 1 END -->
 
             <!-- CARD 2 START -->
-            <div class="selected-work"><div>
-                <img src="./assets/images/macbook.jpg" class="featured-img" alt="featured">
-            </div>
+            <div class="selected-work d-none d-sm-block">
+                <div>
+                    <img src="./assets/images/macbook.jpg" class="featured-img" alt="featured">
+                </div>
                 <div class="featured-bottom-line">
                     <div class="featured-title">FEATURED PROJECT</div>
                     <div class="featured-icons">
@@ -116,9 +118,10 @@
             <!-- CARD 2 END -->
 
             <!-- CARD 3 START -->
-            <div class="selected-work"><div>
-                <img src="./assets/images/man.jpg" class="featured-img" alt="featured">
-            </div>
+            <div class="selected-work d-none d-sm-block">
+                <div>
+                    <img src="./assets/images/man.jpg" class="featured-img" alt="featured">
+                </div>
                 <div class="featured-bottom-line">
                     <div class="featured-title">FEATURED PROJECT</div>
                     <div class="featured-icons">
@@ -132,9 +135,10 @@
             <!-- CARD 3 END -->
 
             <!-- CARD 4 START -->
-            <div class="selected-work"><div>
-                <img src="./assets/images/security.jpg" class="featured-img" alt="featured">
-            </div>
+            <div class="selected-work d-none d-sm-block">
+                <div>
+                  <img src="./assets/images/security.jpg" class="featured-img" alt="featured">
+                </div>
                 <div class="featured-bottom-line">
                     <div class="featured-title">FEATURED PROJECT</div>
                     <div class="featured-icons">
@@ -150,7 +154,7 @@
         </div>
     </div>
 <!-- start right column -->
-    <div class="container right-container" >
+    <div class="container right-container d-none d-sm-block" >
         <div id="sub-section-title">THE LAST</div>
         <div class="posts">
             <!-- POST 1 START -->

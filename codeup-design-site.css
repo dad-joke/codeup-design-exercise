@@ -8,6 +8,12 @@
 /*    box-sizing: border-box;*/
 /*}*/
 
+
+
+/*--------------------------------------------------*/
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*// No media query since this is the default in Bootstrap*/
+
 body {
     background-color: lightgray;
     /*margin: 0 auto;*/
@@ -22,25 +28,73 @@ body {
 }
 
 .logo {
-    height: 105px;
-    width: 105px;
+    /*instructions say 105px BUT it doesn't look right on XS screen size at 105px*/
+    /*height: 105px;*/
+    /*width: 105px;*/
+    height: 200px;
+    width: 200px;
+    margin-top: -3.2em;
+}
+}
+.navbar-brand {
+    font-family: Abel;
 }
 
 #head-nav-link {
     font-family: 'Abel', sans-serif;
     color: black;
 }
+
+hr {
+    border-bottom: 1px solid gray;
+}
+h1 {
+    font-size: 4.8em;
+    margin-top: 1.5em;
+    font-family: anton;
+}
+h4 {
+    margin-top: .5em;
+    font-size: 3em;
+    font-family: anton;
+}
 #first-grid {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-hr {
-    border-bottom: 1px solid gray;
+
+#stayMiddle {
+    flex-direction: column;
+    width: 100%;
+    height: 5em;
+}
+#first-grid {
+    margin-top: 10em;
+}
+.navbar-brand {
+    font-size: 4em;
+}
+#tab-circles-group {
+    justify-content: space-evenly;
+    margin: 2em 0em;
+}
+#circle-img {
+    height: 200px;
+    width: 200px;
+    margin: .5em 0em;
+}
+.featured-img {
+    width: 100%;
+}
+#sub-section-title {
+    margin-bottom: 2em;
+    font-family: Abel;
 }
 
 /*for large and xl screens*/
-@media screen and (min-width: 992px) {
+/*@media screen and (min-width: 992px)*/
+@media screen and (min-width: 768px) {
     .logo {
         margin: -2em 1em -2em 0em;
     }
@@ -58,17 +112,13 @@ hr {
         font-weight: lighter;
     }
 
-    #stayMiddle {
-        width: 75%;
-    }
-
     #first-grid {
         padding: 4em 0em 2em 0em;
     }
 
     #tab-circles-group {
-        justify-content: center;
-        margin: 2em 0em;
+        /*justify-content: center;*/
+        /*margin: 2em 0em;*/
     }
 
     #circle-img {
@@ -108,9 +158,7 @@ hr {
         flex: 0 0 42%;
     }
 
-    .featured-img {
-        width: 100%;
-    }
+
 
     .featured-bottom-line {
         /* display: flex;
@@ -202,9 +250,7 @@ hr {
         padding-left: 10px;
         font-weight: bolder;
     }
-    #sub-section-title {
-        margin-bottom: 2em;
-    }
+
     #circle-img {
         box-sizing: unset;
         height: 105px;
@@ -213,7 +259,16 @@ hr {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
 
-}
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
 
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*This Exercise groups Large and Extra Large Devices.*/
+/*// Extra large devices (large desktops, 1200px and up)*/
+/*@media (min-width: 1200px) { ... }*/
