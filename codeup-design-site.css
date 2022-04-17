@@ -13,6 +13,21 @@
 /*--------------------------------------------------*/
 /*// Extra small devices (portrait phones, less than 576px)*/
 /*// No media query since this is the default in Bootstrap*/
+.orange {
+    background-color: #E6563B;
+}
+
+.yellow {
+    background-color: #DEA03D;
+}
+
+.green {
+    background-color: #7CB06C;
+}
+
+.blue {
+    background-color: #00ABA9;
+}
 
 body {
     background-color: lightgray;
@@ -90,6 +105,28 @@ h4 {
 #sub-section-title {
     margin-bottom: 2em;
     font-family: Abel;
+    font-size: 2em;
+    text-align: center;
+}
+.featured-title {
+    font-family: Abel;
+    font-size: 2em;
+    /*line-height: 18px;*/
+}
+.featured-bottom-line {
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+    /*padding: 5px;*/
+    margin-top: 5px;
+}
+.featured-icon {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    margin-left: 3px;
+    /*text-align: center;*/
 }
 
 /*for large and xl screens*/
@@ -160,19 +197,13 @@ h4 {
 
 
 
-    .featured-bottom-line {
-        /* display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 5px; */
-        margin-top: 5px;
-    }
 
-    .featured-title {
-        /* flex: 0 0 70%; */
-        display: inline;
-        line-height: 18px;
-    }
+
+    /*.featured-title {*/
+    /*    !* flex: 0 0 70%; *!*/
+    /*    display: inline;*/
+    /*    line-height: 18px;*/
+    /*}*/
 
     .featured-icons {
         display: flex;
@@ -183,29 +214,7 @@ h4 {
         /* flex: 0 0 20%; */
     }
 
-    .featured-icon {
-        height: 18px;
-        width: 18px;
-        border-radius: 50%;
-        margin-left: 3px;
-        text-align: center;
-    }
 
-    .orange {
-        background-color: #E6563B;
-    }
-
-    .yellow {
-        background-color: #DEA03D;
-    }
-
-    .green {
-        background-color: #7CB06C;
-    }
-
-    .blue {
-        background-color: #00ABA9;
-    }
 
     .right-container {
         /*max-width: 450px;*/
