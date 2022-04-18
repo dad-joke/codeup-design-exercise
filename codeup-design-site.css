@@ -129,20 +129,23 @@ h4 {
     flex-basis: 30%;
     align-items: center;
     justify-content: space-between;
+    /*align-items: stretch;*/
 
 }
 .featured-icon {
-    border-radius: 50%;
-    height: 18px;
-    width: 18px;
-    padding: 12px;
+    /*border-radius: 50%;*/
+    height: 25px;
+    width: 25px;
+    /*padding: 12px;*/
     /*margin-left: 3px;*/
-    font-family: Abel;
-    text-align: center;
+    /*font-family: Abel;*/
+    /*text-align: center;*/
 }
 
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
+
 
 .logo {
     /*instructions say 105px BUT it doesn't look right on XS screen size at 105px*/
@@ -152,6 +155,16 @@ h4 {
     width: 105px;
     margin-top: -1.5em;
 }
+
+    h1 {
+        font-size: 2.3em;
+    }
+
+    h4 {
+        font-size: 2em;
+    }
+
+
 #navbar-color {
 
 }
