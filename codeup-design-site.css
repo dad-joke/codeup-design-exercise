@@ -279,177 +279,33 @@ h4 {
 }
 
 
-
-/*.logo {*/
-/*    !*instructions say 105px BUT it doesn't look right on XS screen size at 105px*!*/
-/*    !*height: 105px;*!*/
-/*    !*width: 105px;*!*/
-/*    height: 105px;*/
-/*    width: 105px;*/
-/*    margin-top: -1.5em;*/
-
-/*}*/
-
-/*    h1 {*/
-/*        font-size: 2.3em;*/
-/*    }*/
-
-/*    h4 {*/
-/*        font-size: 2em;*/
-/*    }*/
-
-
-/*#navbar-color {*/
-
-/*}*/
-/*}*/
-
-/*for large and xl screens*/
-/*@media screen and (min-width: 992px)*/
-/*@media screen and (min-width: 768px) {*/
-/*    .logo {*/
-/*        margin: -2em 1em -2em 0em;*/
-/*    }*/
-
-/*    #navbarNav {*/
-/*        justify-content: flex-end;*/
-/*    }*/
-
-/*    #head-nav-link {*/
-/*        padding: 0em 1em;*/
-/*    }*/
-
-/*    .navbar-brand {*/
-/*        font-size: 2em;*/
-/*        font-weight: lighter;*/
-/*    }*/
-
-/*    #first-grid {*/
-/*        padding: 4em 0em 2em 0em;*/
-/*    }*/
-
-/*    #tab-circles-group {*/
-/*        !*justify-content: center;*!*/
-/*        !*margin: 2em 0em;*!*/
-/*    }*/
-
-/*    #circle-img {*/
-/*        padding: 0em 2em;*/
-/*    }*/
-
-/*    #hr-container {*/
-/*        width: 90%;*/
-/*        margin-bottom: 3em;*/
-/*    }*/
-
-/*    !*original bottom of lg and xl css styling. assuming remainder of this css should have been inside curly brace*!*/
-
-    /*.left-right-container {*/
-    /*    display: flex;*/
-    /*    !*max-width: 1000px;*!*/
-    /*    !*max-width: 75%;*!*/
-    /*    flex-wrap: wrap;*/
-    /*    padding: 2em;*/
-    /*}*/
-
-/*    .left-container {*/
-/*        width: 60%;*/
-/*        flex: 0 0 60%;*/
-
-/*    }*/
-
-/*    .featured-work {*/
-/*        font-size: 10px;*/
-/*        display: flex;*/
-/*        flex-wrap: wrap;*/
-/*    }*/
-
-    /*.selected-work {*/
-    /*    width: 100%;*/
-    /*    margin: 15px;*/
-    /*    flex: 0 0 42%;*/
-    /*}*/
-
-
-
-
-
-/*    !*.featured-title {*!*/
-/*    !*    !* flex: 0 0 70%; *!*!*/
-/*    !*    display: inline;*!*/
-/*    !*    line-height: 18px;*!*/
-/*    !*}*!*/
-
-/*    .featured-icons {*/
-/*        display: flex;*/
-/*        float: right;*/
-/*        line-height: 18px;*/
-
-/*        !* justify-content: space-around; *!*/
-/*        !* flex: 0 0 20%; *!*/
-/*    }*/
-
-
-
-    /*.right-container {*/
-    /*    !*max-width: 450px;*!*/
-    /*    max-width: 40%;*/
-    /*    !*margin-top: 15px;*!*/
-    /*    flex: 0 0 40%;*/
-    /*}*/
-
-    /*.posts {*/
-    /*    display: flex;*/
-    /*    flex-wrap: wrap;*/
-    /*}*/
-
-    /*.post {*/
-    /*    display: flex;*/
-    /*    padding: 15px 0;*/
-    /*}*/
-
-    /*.post-image img {*/
-    /*    width: 70px;*/
-    /*    height: 55px;*/
-    /*    flex: 0 0 33%;*/
-    /*}*/
-
-    /*.post-title {*/
-    /*    padding-left: 10px;*/
-    /*    font-weight: bolder;*/
-    /*    flex: 0 0 65%;*/
-    /*}*/
-
-    /*.tweets {*/
-    /*    display: flex;*/
-    /*    align-items: center;*/
-    /*    padding-top: 20px;*/
-    /*}*/
-
-    /*.fa-twitter {*/
-    /*    color: #1DA1F2;*/
-    /*}*/
-
-    /*.tweet {*/
-    /*    padding-left: 10px;*/
-    /*    font-weight: bolder;*/
-    /*}*/
-
-/*    #circle-img {*/
-/*        box-sizing: unset;*/
-/*        height: 105px;*/
-/*        width: 105px;*/
-/*    }*/
-/*}*/
-
-
-
-
-
-
-
-
-
 /*This Exercise groups Large and Extra Large Devices.*/
 /*// Extra large devices (large desktops, 1200px and up)*/
-/*@media (min-width: 1200px) { ... }*/
+@media (min-width: 1200px) {
+    .left-container {
+        width: 75%;
+        flex: 0 0 75%;
+    }
+    .right-container {
+        display: flex;
+        max-width: 25%;
+        flex: 0 0 25%;
+    }
+    .post {
+        display: flex;
+        padding: 0px 0px 25px 0px;
+    }
+    .post-image img {
+        width: 50px;
+        height: 50px;
+        flex: 0 0 33%;
+        padding-top: 7px;
+    }
+    .post-title {
+        font-family: 'Anton', sans-serif;
+        font-size: 1.2em;
+        padding-left: 10px;
+        font-weight: bolder;
+        flex: 0 0 65%;
+    }
+}
