@@ -19,6 +19,7 @@
 body {
     background-color: #F0F0F0;
     margin: 0 auto;
+    font-family: Abel, sans-serif;
 }
 .logo {
     /*instructions say 105px BUT it doesn't look right on XS screen size at 105px*/
@@ -32,9 +33,10 @@ body {
     font-family: 'Abel', serif;
     font-weight: unset;
 }
-
+.right-container {
+    padding: 0em;
+}
 #head-nav-link {
-    font-family: Abel, sans-serif;
     color: black;
     font-size: 1.5em;
 }
@@ -57,7 +59,6 @@ h4 {
     flex-direction: column;
     text-align: center;
 }
-
 #stayMiddle {
     flex-direction: column;
     width: 100%;
@@ -69,7 +70,6 @@ h4 {
 .navbar-brand {
     font-size: 4em;
 }
-
 .sm-container {
     max-width: 60%;
 }
@@ -88,10 +88,10 @@ h4 {
     width: 100%;
     border: 3px solid #E6E6E6;
 }
-#sub-section-title {
+.sub-section-title {
     margin-bottom: 2em;
     margin-top: 2em;
-    font-family: Abel;
+    font-family: Abel, sans-serif;
     font-size: 1.3em;
     text-align: center;
 }
@@ -102,7 +102,6 @@ h4 {
     margin-bottom: 1em;
 }
 .featured-title {
-    font-family: Abel;
     font-size: 1.4em;
     flex-basis: 70%;
     padding: 0em;
@@ -139,19 +138,16 @@ h4 {
         width: 125px;
         margin: .5em 0em;
     }
-
     .left-container {
         flex-wrap: wrap;
         padding: 0;
     }
-
     .featured-work {
         font-size: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
-
     .selected-work {
         width: 100%;
         margin: 0px 15px;
@@ -177,7 +173,6 @@ h4 {
         margin-left: 1.5em;
     }
     #company-name {
-    font-family: 'Abel';
     font-size: 1.5em;
     }
     h1 {
@@ -202,7 +197,6 @@ h4 {
    .circle-img {
        margin: 0em 1em;
    }
-
    .featured-work {
        font-size: 10px;
        display: flex;
@@ -215,12 +209,10 @@ h4 {
     }
     .sub-section-title {
         margin-bottom: 1em;
-        font-family: Abel;
         font-size: 1.5em;
         text-align: center;
     }
    .featured-title {
-
        display: inline;
        line-height: 18px;
        font-size: 1.3em;
